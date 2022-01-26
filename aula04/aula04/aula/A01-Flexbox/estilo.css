@@ -1,0 +1,63 @@
+    *{
+        margin:0px;
+        padding:0px;
+        box-sizing: border-box;
+        list-style-type: none;
+    }
+
+    .cabecalho{
+        display:flex;
+        justify-content: space-between;
+        background-color: mediumslateblue;
+    }
+
+    .logo{
+        height: 100px;
+        width:auto;
+        margin: 0px;
+    }
+
+    .menu{
+        display: flex;
+        align-items: center;
+        font-size: 1.5em;
+    }
+
+    .menu li{
+        margin-right: 20px;
+    }
+    .menu a{
+        text-decoration: none;
+        color:white;
+    }
+
+    main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .lateral{
+        width:35vw;
+        margin:20px;
+    }
+
+    article{
+        width: 55vw;
+    }
+
+    .banner{
+        width:100%;
+        min-width: 400px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding:30px;
+    }
+    
+    footer{
+        width: 100vw;
+        background-color: mediumslateblue;
+        color: mintcream;
+    }

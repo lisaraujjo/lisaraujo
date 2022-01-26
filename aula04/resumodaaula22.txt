@@ -1,0 +1,20 @@
+-exercício de revisão.
+-aprendendo a usar o font awesome:
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+-colar o ícone na lista 
+
+unidades responsivas:
+
+vw= parcela da largura da tela
+vh= parcela do tamanho da tela
+min-width= menor tamanho que o item alcança
+min-height=menor altura que o item alcança
+
+flexbox 
+-display flex : transforma o container em um flexbox
+-flex-direction : dita a organização iterna dos itens (coluna ou linha)
+-justify content : organiza horizontalmente os itens internos
+-align items : organiza verticalmente os itens internos
+-flex-wrap : quebra a linha caso os itens internos não caibam na mesma
+
+

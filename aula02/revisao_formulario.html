@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão Formulário</title>
+</head>
+<body>
+    <form action="#">
+        <table>
+            <thead style="text-align: left;">
+                <tr>
+                    <th colspan="2" style="background-color:chocolate;">SISTEMA DE GESTÃO ACADÊMICA</th>
+                </tr>
+                <tr>
+                    <th colspan="2">MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Login</td>
+                    <td> <input type="text"> </td>
+                </tr>
+                <tr>
+                    <td>Senha</td>
+                    <td> <input type="password"> </td>
+                </tr>
+                <tr>
+                    <td>Status</td>
+                    <td> 
+                        <select name="Status" id="">
+                             <option value="Ativo">Ativo</option>
+                             <option value="Inativo">Inativo</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tipo</td>
+                    <td>
+                        <label><input type="radio" name="tipo" id="">Técnico</label>
+                        <label><input type="radio" name="tipo" id="">Professor</label>
+                        <label><input type="radio" name="tipo" id="">Aluno</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Data de criação</td>
+                    <td> <input type="date" name="" id=""> </td>
+                </tr>
+                <tr>
+                    <td>Perfil</td>
+                    <td>
+                        <label><input type="radio" name="Perfil" id="">Convidado</label>
+                        <label><input type="radio" name="Perfil" id="">Administrador</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Observações</td>
+                    <td> <textarea name="" id="" cols="30" rows="10"></textarea> </td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Módulos</td>
+                    <td>
+                        <label><input type="checkbox" name="compras" id=""> Compras</label>
+                        <label><input type="checkbox" name="biblioteca" id="">Biblioteca</label>
+                        <label><input type="checkbox" name="academico" id="">Acadêmico</label>
+                        <br>
+                        <label><input type="checkbox" name="documentacao" id="">Documentação</label>
+                        <label><input type="checkbox" name="recursos_humanos" id="">Recursos Humanos</label>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Excluir">
+    </form>
+    
+
+
+    
+</body>
+</html>
